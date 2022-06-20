@@ -1,0 +1,93 @@
+# ========================
+# Bind error message
+# ========================
+# Pattern1
+typeMismatch.signupForm.age=Bitte gebe eine Nummer ein
+
+typeMismatch.signupForm.birthday=Bitte geben Sie im Format TT/MM/JJJJ ein
+
+# Pattern2
+#typeMismatch.age=Bitte gebe eine Nummer ein(Pattern2)
+#typeMismatch.birthday=Bitte geben Sie im Format TT/MM/JJJJ ein(Pattern2)
+# Pattern3
+#typeMismatch.int=Bitte gebe eine Nummer ein(Pattern3)
+#typeMismatch.java.lang.Integer=Bitte gebe eine Nummer ein(Pattern3)
+
+#typeMismatch.java.util.Date=Bitte geben Sie im Format TT/MM/JJJJ ein(Pattern3)\u201D
+
+# ========================
+
+
+# Validation error message
+
+
+# ========================
+
+NotBlank={0}
+ ist erforderlich is required
+
+Email=Bitte geben Sie
+ {0}
+ im E-Mail-Adressformat ein
+
+Length=Geben Sie
+ {0}
+ mit
+ {2}
+ Ziffern oder mehr und
+ {1}
+ Ziffern oder weniger ein
+
+Pattern=Bitte geben Sie
+ {0}
+ in alphanumerischen Einzelbyte-Zeichen ein\u201D
+
+\u201CThe value of the attribute set in the annotation is displayed for the numbers after {0}. The number after {0} shows the value of the attribute set in the annotation.
+Example: @Length(min = 4, max = 100)
+
+{1} = value of max(100)
+{2} = value of min(4)
+
+Which numbers contain which attribute values is set in ascending order by attribute name. Since the order of max is earlier than min, it is set as above.
+
+For multilingual support, also edit the properties file for German. The part where the background color is changed is the modified part.
+[ValidationMessages_de.properties]
+
+# ========================
+# Bind error message
+# ========================
+# Pattern1
+typeMismatch.signupForm.age=Bitte gebe eine Nummer ein
+
+typeMismatch.signupForm.birthday=Bitte geben Sie im Format TT/MM/JJJJ ein
+
+# Pattern2
+#typeMismatch.age=Bitte gebe eine Nummer ein(Pattern2)
+#typeMismatch.birthday=Bitte geben Sie im Format TT/MM/JJJJ ein(Pattern2)
+# Pattern3
+#typeMismatch.int=Bitte gebe eine Nummer ein(Pattern3)
+#typeMismatch.java.lang.Integer=Bitte gebe eine Nummer ein(Pattern3)
+
+#typeMismatch.java.util.Date=Bitte geben Sie im Format TT/MM/JJJJ ein(Pattern3)
+
+# ========================
+
+
+# Validation error message
+
+
+# ========================
+
+NotBlank={0} ist erforderlich is required
+
+Email=Bitte geben Sie {0} im E-Mail-Adressformat ein
+
+Length=Geben Sie {0} mit {2} Ziffern oder mehr und {1} Ziffern oder weniger ein
+
+Pattern=Bitte geben Sie[\u2026]\u201D
+
+NotNull={0} ist erforderlich is required
+
+Min=Geben Sie {1} oder mehr für {0} ein
+
+Max=Geben Sie für {0} {1} oder weniger ein\u201D

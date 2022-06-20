@@ -1,0 +1,17 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+.container{
+	width: 300px;
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+	display:flex;
+}

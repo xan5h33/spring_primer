@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Index</title>
+	</head>
+	<body>
+		<h1 th:text="#{index.hello}">text</h1>
+	</body>
+</html>
